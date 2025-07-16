@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# openEHR Fellowship project - How to publicly document openEHR implementations
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
