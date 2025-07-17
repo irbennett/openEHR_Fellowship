@@ -1,19 +1,4 @@
-# openEHR Fellowship project - How to publicly document openEHR implementations
+# openEHR Fellowship project
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-I like to drink :beers: after I play :soccer:
+My openEHR fellowship project will focus on **How to publicly document openEHR implementations.** For more information, please see the [Project proforma](https://irbennett.github.io/openEHR_Fellowship/intro/).
