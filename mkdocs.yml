@@ -27,6 +27,7 @@ theme:
 nav:
   - About the fellowship: index.md
   - Project proforma: intro.md
+  - Reflective Writing Entries: reflective-writing.md
 
 markdown_extensions:
   - attr_list
