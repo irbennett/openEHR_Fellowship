@@ -1,5 +1,6 @@
 site_name: openEHR Fellowship
 site_url: https://ianbopenehrfellowship.com
+use_directory_urls: true
 theme:
   name: material
   font:

@@ -41,9 +41,9 @@ During the first few months of the fellowship, my activities have included:
 ## FAQs
 There are areas I've discovered during this first phase that have helped clarify aspects of the overall approach and define the project scope more clearly. This may form an ongoing set of project FAQs:
 
-- **Q:** How will we map between Search Parameters and AQL when making FHIR API calls to the openEHR CDR?
+- **Q:** How will we map between FHIR Search Parameters and AQL when making FHIR API calls to the openEHR CDR?
 
-- **A:**  The FHIR IPS Summary uses $operation so there will be no FHIR Search Parameters included in the API request. The business logic (i.e. applied date period) will be published in the FHIR IG.
+- **A:**  The FHIR IPS Summary uses $operation so there will be no FHIR Search Parameters included in the API request. The business logic (i.e. applying a date range to retrieve data) will be within the AQL and this logic will be written up into the published FHIR IG.
 
 ---
 
