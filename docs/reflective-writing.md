@@ -29,14 +29,14 @@ During the first few months of the fellowship, my activities have included:
 4. Downloading and running [GoFSH and SUSHI](https://fshschool.org/docs/) to generate and locally deploy my first FHIR Implementation Guide (IG).
 
 <figure>
-  <img src="/assets/FHIR_IG_Locally_Deployed_Example.png" alt="FHIR IG" style="width:100%">
+  <img src="assets/FHIR_IG_Locally_Deployed_Example.png" alt="FHIR IG" style="width:100%">
   <figcaption><em>Figure 1: Locally deployed FHIR IG example</em></figcaption>
 </figure>
 
   - Each time you deploy a FHIR IG, you receive a fishy pun 🐟.
 
 <figure>
-  <img src="/assets/SUSHI - Compile FSH into FHIR JSON.png" alt="FHIR IG" style="width:100%">
+  <img src="assets/SUSHI - Compile FSH into FHIR JSON.png" alt="FHIR IG" style="width:100%">
   <figcaption><em>Figure 2: SUSHI: Compiling FHIR Shorthand (FSH) into FHIR JSON — with a fishy pun for good measure</em></figcaption>
 </figure>
 
