@@ -34,7 +34,7 @@ At the brilliant **EHRCON25** event in Barcelona, it became apparent that there 
 - I have set up the first of (hopefully) a series of calls to bring community of interest together to discuss progressing openEHR IG
 
 ## Next steps
-1. As part of **FHIR Connect** working group, I will be reviewing the mappings between openEHR and FHIR in order to publish reproducible IPS openEHR <---> FHIR mappings - special thanks to **Severin Kohler** for his work on FHIR Connect, establishing the mappings and setting up the working group
+1. As part of **FHIR Connect** working group, I will be reviewing the mappings between openEHR and FHIR in order to publish reproducible IPS openEHR <---> FHIR mappings - special thanks to **Severin Kohler** for his work on FHIR Connect specification, [establishing a set of mappings](https://github.com/SevKohler/FHIRconnect-spec) and setting up the working group.
 2. Update and document the agreed objectives of openEHR IG as part of bringing community of interest together
 3. Publish openEHR artifacts utilising FHIR IG publisher.
 4. Contribute to openEHR IPS clinical modelling group - thank you to **Heidi Koikkalainen** for organising these discussions and including me
