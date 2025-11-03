@@ -29,9 +29,12 @@ nav:
   - About the fellowship: index.md
   - Project proforma: intro.md
   - Reflective Writing Entries: reflective-writing.md
+  - Reflective Entry 2: reflective-entry-2.md
 
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - md_in_html
