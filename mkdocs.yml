@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=mkdocs-schema.json
 site_name: openEHR Fellowship
 site_url: https://ianbopenehrfellowship.com
 use_directory_urls: true
@@ -30,6 +31,7 @@ nav:
   - Project proforma: intro.md
   - Reflective Entry 1: reflective-writing.md
   - Reflective Entry 2: reflective-entry-2.md
+  - Reflective Entry 3: reflective-entry-3.md
 
 markdown_extensions:
   - attr_list
