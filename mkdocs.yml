@@ -32,6 +32,7 @@ nav:
   - Reflective Entry 1: reflective-writing.md
   - Reflective Entry 2: reflective-entry-2.md
   - Reflective Entry 3: reflective-entry-3.md
+  - Reflective Entry 4: reflective-entry-4.md
 
 markdown_extensions:
   - attr_list
