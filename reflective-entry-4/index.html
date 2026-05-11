@@ -433,9 +433,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#personal-development-mirrored-in-the-talk" class="md-nav__link">
+  <a href="#personal-development" class="md-nav__link">
     <span class="md-ellipsis">
-      Personal development mirrored in the talk
+      Personal development
     </span>
   </a>
   
@@ -530,9 +530,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#personal-development-mirrored-in-the-talk" class="md-nav__link">
+  <a href="#personal-development" class="md-nav__link">
     <span class="md-ellipsis">
-      Personal development mirrored in the talk
+      Personal development
     </span>
   </a>
   
@@ -569,21 +569,33 @@
 <h2 id="what-are-fhir-igs-and-why-should-they-be-leveraged-for-openehr-artefacts">What are FHIR IGs and why should they be leveraged for openEHR artefacts</h2>
 <p>A FHIR Implementation Guide (IG) is a structured set of rules, profiles, examples, and other artefacts that define how FHIR should be implemented within a specific real-world interoperability scenario. It provides both human-readable guidance and machine-processable definitions that describe how data should be exchanged in accordance with the IG.</p>
 <p>Key aspects of a FHIR IG typically include:</p>
+<ol>
+<li>
+<p>Practical guidance on <strong>how to actually implement FHIR</strong> in real-world workflows and integrations.</p>
+</li>
+<li>
+<p><strong>FHIR Profiles</strong> that define the structure, meaning, and rules governing API payloads, covering for example:</p>
 <ul>
-<li>Practical guidance on <strong>how to actually implement FHIR</strong> in real-world workflows and integrations.</li>
-<li><strong>FHIR Profiles</strong> that define the structure, meaning, and rules governing API payloads, including:</li>
 <li><strong>Constraints</strong></li>
 <li><strong>Extensions</strong></li>
 <li><strong>Cardinality</strong></li>
 <li><strong>Data types</strong></li>
 <li><strong>Terminology bindings</strong></li>
-<li><strong>Human-readable HTML views and examples</strong> that make profiles easier to understand and implement by showing realistic payload structures and usage patterns.</li>
-<li>A <strong>machine-readable package of artefacts</strong> that supports:</li>
+</ul>
+</li>
+<li>
+<p><strong>Human-readable HTML views and examples</strong> that make profiles easier to understand and implement by showing realistic payload structures and usage patterns.</p>
+</li>
+<li>
+<p>A <strong>machine-readable package of artefacts</strong> that supports:</p>
+<ul>
 <li><strong>Validation</strong></li>
 <li><strong>Conformance checking</strong></li>
 <li><strong>Deployment</strong></li>
 <li>Loading curated profiles and terminology assets onto FHIR servers</li>
 </ul>
+</li>
+</ol>
 <h2 id="fellowship-deliverables">Fellowship deliverables</h2>
 <p>Given the benefits of FHIR Implementation Guides and the lack of equivalent implementation documentation for openEHR, I decided to focus on delivering an Implementation Guide containing openEHR artefacts using the HL7 IG Publisher for authoring and publication. To align with the themes of the openEHR–FHIR Converge or Collide conference, the example content was based on the International Patient Summary (IPS).</p>
 <h2 id="defining-the-content-for-an-openehr-ig">Defining the content for an openEHR IG</h2>
@@ -595,20 +607,22 @@
 <h2 id="generating-the-fhir-ig">Generating the FHIR IG</h2>
 <p>For the <strong>openEHR IHE Connectathon</strong>, the following openEHR artifacts based on <strong>EHDS Laboratory Results</strong> were published in the <strong><a href="https://irbennett.github.io/EHDS-Labs-openEHR-FHIR-IG/en/index.html">EHDS openEHR Test IG</a></strong> (hosted on GitHub Pages):</p>
 <ol>
-<li>Logical model representation of <strong>EHDS Laboratory Results</strong> openEHR template</li>
-</ol>
+<li>
+<p>Logical model representation of <strong>EHDS Laboratory Results</strong> openEHR template</p>
 <p><img alt="FHIR IG differential table showing GenericLaboratoryReport logical model with openEHR RM types" src="../assets/IG_GenericLaboratoryReport_differential_table.png" /></p>
 <p><em>Figure 1: Formal view (differential table) of the </em><em>GenericLaboratoryReport</em><em> logical model in published IG HTML</em></p>
-<ol>
-<li>Markdown <strong>example Composition</strong> aligned with clinical laboratory test results flow</li>
-</ol>
+</li>
+<li>
+<p>Markdown <strong>example Composition</strong> aligned with clinical laboratory test results flow</p>
 <p><img alt="EHDS openEHR Test IG — Hepatic Function Panel composition example (FLAT JSON tab)" src="../assets/IG_EHDS_hepatic_function_panel_composition.png" /></p>
 <p><em>Figure 2: Published IG page documenting a </em><em>hepatic function panel</em><em> example composition (FLAT / structured / canonical views), illustrating how payloads can be shown in implementer-ready form.</em></p>
-<ol>
-<li>Markdown <strong>AQL and response</strong> excerpts to query key clinical data.</li>
-</ol>
+</li>
+<li>
+<p>Markdown <strong>AQL and response</strong> excerpts to query key clinical data.</p>
 <p><img alt="EHDS openEHR Test IG — AQL lab results query and sample JSON response" src="../assets/IG_AQL_lab_results_query_response.png" /></p>
 <p><em>Figure 3: </em><em>AQL query</em><em> targeting laboratory analyte archetypes (<code>report-result</code>, <code>laboratory_test_result</code>, <code>laboratory_test_analyte</code>) with <code>:compositionIdLab</code>, paired with an </em><em>example JSON response</em><em> for querying key laboratory data.</em></p>
+</li>
+</ol>
 <h2 id="key-learnings-and-next-steps">Key learnings and next steps</h2>
 <ul>
 <li>The Fellowship work showed it is feasible to <strong>use the HL7 IG Publisher</strong> to publish openEHR artefacts to support implementation and integration.</li>
@@ -618,7 +632,7 @@
 <li><strong>Where HL7 IG Publisher itself may need changes</strong> to meet openEHR-oriented publishing goals</li>
 <li>The IG produced has helped steer the conversation about how this can be taken forward.</li>
 </ul>
-<h2 id="personal-development-mirrored-in-the-talk">Personal development mirrored in the talk</h2>
+<h2 id="personal-development">Personal development</h2>
 <p>Beyond the artefacts themselves, the Fellowship involved sustained community participation which I've benefittd from immensely including:</p>
 <ul>
 <li>Continued involvement in <strong>FHIR Connect</strong> governance and editorial meetings (including Converge and Collaborate speaking slot).</li>
@@ -627,16 +641,21 @@
 <li>Shipping my first independently published sites: both the exploratory <a href="https://irbennett.github.io/EHDS-Labs-openEHR-FHIR-IG/en/index.html"><strong>EHDS openEHR IG</strong></a> and this <strong>Fellowship</strong> site</li>
 </ul>
 <h2 id="thanks-and-attributions">Thanks and attributions</h2>
-<p>Special thanks to:
-- <strong>Rachel Dunscombe</strong> (Fellowship supervisor) - for her direct support for this project and for helping me access the expertise of the community
-- <strong>Ian McNicoll</strong> (Fellowship mentor) - for his invaluable support through providing his time and code!
-- <strong>Abi Bouvier</strong> - for all her amazing work organising an excellent Fellowship programme
-- <strong>Richard Kavanagh</strong>,
-- <strong>Gasper Andrejc</strong>,
-- <strong>Severin Kohler</strong>,
-- <strong>Heather Leslie</strong>,
-- <strong>Heidi Koikkalainen</strong>,
-- <strong>Wouter Zanen</strong></p>
+<p>Special thanks to:</p>
+<ul>
+<li><strong>Rachel Dunscombe</strong> (Fellowship supervisor) — for her invaluable direct support, and helping me reach the wider informatics community.</li>
+<li><strong>Ian McNicoll</strong> (Fellowship mentor) — for his patient guidance throughout the project and generous hands-on contribution (including code).</li>
+<li><strong>Abi Bouvier</strong> — for organising and running an excellent Fellowship programme.</li>
+</ul>
+<p>Colleagues who contributed their time and expertise along the way:</p>
+<ul>
+<li><strong>Richard Kavanagh</strong></li>
+<li><strong>Gasper Andrejc</strong></li>
+<li><strong>Severin Kohler</strong></li>
+<li><strong>Heather Leslie</strong></li>
+<li><strong>Heidi Koikkalainen</strong></li>
+<li><strong>Wouter Zanen</strong></li>
+</ul>
 
 
 
