@@ -9,19 +9,24 @@ A FHIR Implementation Guide (IG) is a structured set of rules, profiles, example
 
 Key aspects of a FHIR IG typically include:
 
-- Practical guidance on **how to actually implement FHIR** in real-world workflows and integrations.
-- **FHIR Profiles** that define the structure, meaning, and rules governing API payloads, including:
-  - **Constraints**
-  - **Extensions**
-  - **Cardinality**
-  - **Data types**
-  - **Terminology bindings**
-- **Human-readable HTML views and examples** that make profiles easier to understand and implement by showing realistic payload structures and usage patterns.
-- A **machine-readable package of artefacts** that supports:
-  - **Validation**
-  - **Conformance checking**
-  - **Deployment**
-  - Loading curated profiles and terminology assets onto FHIR servers
+1. Practical guidance on **how to actually implement FHIR** in real-world workflows and integrations.
+
+2. **FHIR Profiles** that define the structure, meaning, and rules governing API payloads, covering for example:
+
+    - **Constraints**
+    - **Extensions**
+    - **Cardinality**
+    - **Data types**
+    - **Terminology bindings**
+
+3. **Human-readable HTML views and examples** that make profiles easier to understand and implement by showing realistic payload structures and usage patterns.
+
+4. A **machine-readable package of artefacts** that supports:
+
+    - **Validation**
+    - **Conformance checking**
+    - **Deployment**
+    - Loading curated profiles and terminology assets onto FHIR servers
 
 ## Fellowship deliverables
 
@@ -42,21 +47,21 @@ For the **openEHR IHE Connectathon**, the following openEHR artifacts based on *
 
 1. Logical model representation of **EHDS Laboratory Results** openEHR template
 
-![FHIR IG differential table showing GenericLaboratoryReport logical model with openEHR RM types](./assets/IG_GenericLaboratoryReport_differential_table.png)
+    ![FHIR IG differential table showing GenericLaboratoryReport logical model with openEHR RM types](./assets/IG_GenericLaboratoryReport_differential_table.png)
 
-*Figure 1: Formal view (differential table) of the **GenericLaboratoryReport** logical model in published IG HTML*
+    *Figure 1: Formal view (differential table) of the **GenericLaboratoryReport** logical model in published IG HTML*
 
 2. Markdown **example Composition** aligned with clinical laboratory test results flow
 
-![EHDS openEHR Test IG — Hepatic Function Panel composition example (FLAT JSON tab)](./assets/IG_EHDS_hepatic_function_panel_composition.png)
+    ![EHDS openEHR Test IG — Hepatic Function Panel composition example (FLAT JSON tab)](./assets/IG_EHDS_hepatic_function_panel_composition.png)
 
-*Figure 2: Published IG page documenting a **hepatic function panel** example composition (FLAT / structured / canonical views), illustrating how payloads can be shown in implementer-ready form.*
+    *Figure 2: Published IG page documenting a **hepatic function panel** example composition (FLAT / structured / canonical views), illustrating how payloads can be shown in implementer-ready form.*
 
 3. Markdown **AQL and response** excerpts to query key clinical data.
 
-![EHDS openEHR Test IG — AQL lab results query and sample JSON response](./assets/IG_AQL_lab_results_query_response.png)
+    ![EHDS openEHR Test IG — AQL lab results query and sample JSON response](./assets/IG_AQL_lab_results_query_response.png)
 
-*Figure 3: **AQL query** targeting laboratory analyte archetypes (`report-result`, `laboratory_test_result`, `laboratory_test_analyte`) with `:compositionIdLab`, paired with an **example JSON response** for querying key laboratory data.*
+    *Figure 3: **AQL query** targeting laboratory analyte archetypes (`report-result`, `laboratory_test_result`, `laboratory_test_analyte`) with `:compositionIdLab`, paired with an **example JSON response** for querying key laboratory data.*
 
 ## Key learnings and next steps
 
@@ -67,7 +72,7 @@ For the **openEHR IHE Connectathon**, the following openEHR artifacts based on *
   - **Where HL7 IG Publisher itself may need changes** to meet openEHR-oriented publishing goals
 - The IG produced has helped steer the conversation about how this can be taken forward.
 
-## Personal development mirrored in the talk
+## Personal development
 
 Beyond the artefacts themselves, the Fellowship involved sustained community participation which I've benefittd from immensely including:
 
@@ -78,13 +83,18 @@ Beyond the artefacts themselves, the Fellowship involved sustained community par
 
 
 ## Thanks and attributions
+
 Special thanks to:
-- **Rachel Dunscombe** (Fellowship supervisor) - for her direct support for this project and for helping me access the expertise of the community
-- **Ian McNicoll** (Fellowship mentor) - for his invaluable support through providing his time and code!
-- **Abi Bouvier** - for all her amazing work organising an excellent Fellowship programme
-- **Richard Kavanagh**,
-- **Gasper Andrejc**,
-- **Severin Kohler**,
-- **Heather Leslie**,
-- **Heidi Koikkalainen**,
+
+- **Rachel Dunscombe** (Fellowship supervisor) — for her invaluable direct support, and helping me reach the wider informatics community.
+- **Ian McNicoll** (Fellowship mentor) — for his patient guidance throughout the project and generous hands-on contribution (including code).
+- **Abi Bouvier** — for organising and running an excellent Fellowship programme.
+
+Colleagues who contributed their time and expertise along the way:
+
+- **Richard Kavanagh**
+- **Gasper Andrejc**
+- **Severin Kohler**
+- **Heather Leslie**
+- **Heidi Koikkalainen**
 - **Wouter Zanen**
